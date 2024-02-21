@@ -1,0 +1,24 @@
+#Eureka-Client Config
+eureka:
+  client:
+    enabled: true
+    instance:
+      preferIpAddress: true
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
+
+# disable security when connecting to server
+management:
+  security:
+    enabled:false
+
+#Giving microsevice endpoints
+microservice:
+  ems-dashboard:
+    endpoints:
+      endpoint:
+        uri1:http://EMS-SEARCH/apisearch/employee/find/
+        uri2:http://EMS-SEARCH/apisearch/addEmployee
+        uri3:http://EMS-SEARCH/apisearch/employee/findAll
+        uri4:http://EMS-SEARCH/apisearch/employee/delete/
+        uri5:http://EMS-SEARCH/apisearch/updateEmployee 
