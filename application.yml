@@ -14,7 +14,7 @@ management:
 
 #Giving microsevice endpoints
 microservice:
-  ems-dashboard:
+  EMS-DASHBOARD:
     endpoints:
       endpoint:
         uri1:http://EMS-SEARCH/apisearch/employee/find/
