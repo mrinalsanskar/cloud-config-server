@@ -17,8 +17,8 @@ microservice:
   EMS-DASHBOARD:
     endpoints:
       endpoint:
-        uri1:http://EMS-SEARCH/apisearch/employee/find/
-        uri2:http://EMS-SEARCH/apisearch/addEmployee
-        uri3:http://EMS-SEARCH/apisearch/employee/findAll
-        uri4:http://EMS-SEARCH/apisearch/employee/delete/
-        uri5:http://EMS-SEARCH/apisearch/updateEmployee 
+        uri[0]:http://EMS-SEARCH/apisearch/employee/find/
+        uri[1]:http://EMS-SEARCH/apisearch/addEmployee
+        uri[2]:http://EMS-SEARCH/apisearch/employee/findAll
+        uri[3]:http://EMS-SEARCH/apisearch/employee/delete/
+        uri[4]:http://EMS-SEARCH/apisearch/updateEmployee 
